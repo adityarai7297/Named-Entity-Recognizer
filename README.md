@@ -1,5 +1,6 @@
 # Named Entity Recognizer
 I have gone with an approach to build an entity recognizer with indian names from scratch using a convolutional neural network.
+This model can be repurposed to classify words into different categories without requiring the context of the words provided appropriate training data is given and the required input dimension changes are done in the model_cnn.py script and predict.py script.
 
 First i scraped the names (more than 30,000) then converted them into one hot encoded vectors (all names are converted to lowercase)
 
